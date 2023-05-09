@@ -7,11 +7,143 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <style>
+      .outline{
+        border: 1px solid black 
+      }
+      .padding{
+        padding: 20px;
+      }
+      .margin{
+        margin: 20px;
+      }
+    </style>
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div>
+      <div class="container-fluid"> 
+        <!-- Heading -->
+        <div class="row text-center">
+          <div class="col">
+            <h1> Jujutsu Collection </h1>
+            <h2>Currently displaying</h2>
+            <p><div class="d-block d-sm-none">XS device</div></p>
+            <p><div class="d-none d-sm-block d-md-none">SM device</div></p>
+            <p><div class="d-none d-md-block d-lg-none">MD device</div></p>
+            <p><div class="d-none d-lg-block d-xl-none">LG device</div></p>
+            <p><div class="d-none d-xl-block d-xxl-none">XL device</div></p>
+            <p><div class="d-none d-xxl-block">XXL device</div></p>
+          </div>
+        </div>
+
+        <!-- First row -->
+        <div class="row outline text-center padding"> 
+          <div class="col-2">
+            JUJUTSU KAISEN
+            <img class="img-fluid" src="jujutsu.jpg" alt="Jujutsu Collection">
+          </div>
+          <div class="col-10">
+            <div class="row">
+              <div class="col-md-4 outline"> 
+                <button type="button"> GOJO SATORU </button>
+                <img class="img-fluid padding" src="gojo.jpg" alt="GOJO SATORU">
+              </div>
+              <div class="col-md-4 outline"> 
+                <button type="button"> GETO DAGURU </button>
+                <img class="img-fluid padding" src="geto.jpg" alt="DAGURU GETO">
+              </div>
+              <div class="col-md-4 outline"> 
+                <button type="button"> NANAMI KENTO</button>
+                <img class="img-fluid padding" src="nanami.jpg" alt="NANAMI KENTO">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second row -->
+        <div class="row outline text-center"> 
+          <div class="col-md-4">
+            <span class="badge rounded-pill bg-danger"> ITADORI YUJI </span>
+            <img class="img-fluid padding" src="yuji.jpg" alt="ITADORI YUJI">
+		      </div>
+          <div class="col-md-4">
+            <span class="badge rounded-pill bg-primary"> FUSHIGURO MEGUMI </span>
+            <img class="img-fluid padding" src="megumi.jpg" alt="FUSHIGURO MEGUMI">
+		      </div>
+          <div class="col-md-4">
+            <span class="badge rounded-pill bg-success"> KUGISAKI NOBARA </span>
+            <img class="img-fluid padding" src="nobara.jpg" alt="KUGISAKI NOBARA">
+		      </div>
+          <div class="col-md-4">
+            <span class="badge rounded-pill bg-warning"> TOGO INUMAKI </span>
+            <img class="img-fluid padding" src="togo.jpg" alt="TOGO INUMAKI">
+		      </div>
+          <div class="col-md-4">
+            <span class="badge rounded-pill bg-dark"> OKKOTSU YUTA </span>
+            <img class="img-fluid padding" src="yuta.jpg" alt="OKKOTSU YUTA">
+		      </div>
+          <div class="col-md-4">
+            <span class="badge rounded-pill bg-light text-dark"> PANDA </span>
+            <img class="img-fluid padding" src="panda.jpg" alt="PANDA">
+		      </div>
+        </div>
+
+        <!-- Thrid row -->
+        <div class="row outline padding"> 
+          <div class="col text-center">
+            CURSED SPIRITS
+          </div>
+        </div>
+
+        <!-- Fourth row -->
+        <div class="row outline"> 
+          <!-- Unregistered Special Grades -->
+          <div class="col outline text-center">
+            <button type="button" class="margin"> Unregistered Special Grades </button>
+            <div class="row outline ">
+              <div class="col-lg-6">
+                MAHITO
+                <img class="img-fluid" src="mahito.jpg" alt="MAHITO">
+              </div>
+              <div class="col-lg-6">
+                JOGO
+                <img class="img-fluid" src="jogo.jpg" alt="JOGO">
+              </div>
+              <div class="col-lg-6">
+                HANAMI
+                <img class="img-fluid" src="hanami.jpg" alt="HANAMI">
+              </div>
+              <div class="col-lg-6">
+                DAGON
+                <img class="img-fluid" src="dagon.jpg" alt="DAGON">
+              </div>
+            </div>
+          </div>
+          <!-- Vengeful Spirits -->
+          <div class="col outline text-center">
+            <button type="button" class="margin"> Vengeful Spirits </button>
+            <div class="row outline ">
+              <div class="col-lg-6">
+                SAKUNA
+                <img class="img-fluid" src="sakuna.jpg" alt="SAKUNA">
+              </div>
+              <div class="col-lg-6">
+                RIKA
+                <img class="img-fluid" src="rika.jpg" alt="RIKA">
+              </div>
+              <div class="col-lg-6">
+                ONNA
+                <img class="img-fluid" src="onna.jpg" alt="ONNA">
+              </div>
+              <div class="col-lg-6">
+                NAOYA
+                <img class="img-fluid" src="naoya.jpg" alt="NAOYA">
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
